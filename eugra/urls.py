@@ -13,9 +13,29 @@ Including another URLconf
     1. Import the include() function: from django.urls import include, path
     2. Add a URL to urlpatterns:  path('blog/', include('blog.urls'))
 """
+from .settings import MEDIA_ROOT
+from django.conf.urls import url, include
 from django.contrib import admin
 from django.urls import path
+from rest_framework.routers import DefaultRouter
+from django.views.static import serve
+from rest_framework.documentation import include_docs_urls
+from rest_framework_jwt.views import obtain_jwt_token
+from django.contrib import admin
+from django.urls import path
+from user.views import UserViewset
+
+router = DefaultRouter()
+router.register(r'user', UserViewset, base_name='user')
+
 
 urlpatterns = [
     path('admin/', admin.site.urls),
+    url(r'^login/', obtain_jwt_token),
+    url(r'^', include(router.urls)),
+    url(r'^media/(?P<path>.*)$', serve, {"document_root": MEDIA_ROOT}),
+
+    url(r'docs/', include_docs_urls(title="online shop")),
+    # url('', include('social_django.urls', namespace='social')),
+
 ]
