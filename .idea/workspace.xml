@@ -2,33 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="30b30b94-433d-4b09-952c-2982ce15d8c1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/apps/user/migrations/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/apps/user/serializers.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/eugra/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/eugra/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/eugra/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/eugra/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/table/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/apps/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/table/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/apps/table/admin.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/table/apps.py" beforeDir="false" afterPath="$PROJECT_DIR$/apps/table/apps.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/table/migrations/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/apps/table/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/table/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/apps/table/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/table/tests.py" beforeDir="false" afterPath="$PROJECT_DIR$/apps/table/tests.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/table/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/apps/table/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/topic/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/apps/table/migrations/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/topic/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/apps/topic/admin.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/topic/apps.py" beforeDir="false" afterPath="$PROJECT_DIR$/apps/topic/apps.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/topic/migrations/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/apps/topic/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/topic/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/apps/topic/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/topic/tests.py" beforeDir="false" afterPath="$PROJECT_DIR$/apps/topic/tests.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/topic/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/apps/topic/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/apps/topic/migrations/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/apps/user/admin.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user/apps.py" beforeDir="false" afterPath="$PROJECT_DIR$/apps/user/apps.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user/migrations/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/apps/user/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/apps/user/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user/tests.py" beforeDir="false" afterPath="$PROJECT_DIR$/apps/user/tests.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/apps/user/views.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -38,11 +12,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/eugra/settings.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-90">
-              <caret line="60" column="4" selection-start-line="60" selection-start-column="4" selection-end-line="60" selection-end-column="4" />
+            <state relative-caret-position="358">
+              <caret line="200" lean-forward="true" selection-start-line="200" selection-end-line="200" />
               <folding>
                 <element signature="e#307#316#0" expanded="true" />
               </folding>
@@ -50,11 +24,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/eugra/urls.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="328">
-              <caret line="36" column="4" selection-start-line="36" selection-start-column="4" selection-end-line="36" selection-end-column="4" />
+            <state relative-caret-position="373">
+              <caret line="36" lean-forward="true" selection-start-line="36" selection-end-line="36" />
               <folding>
                 <element signature="e#629#661#0" expanded="true" />
               </folding>
@@ -116,11 +90,11 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/requirements.txt" />
-        <option value="$PROJECT_DIR$/eugra/settings.py" />
         <option value="$PROJECT_DIR$/apps/user/views.py" />
         <option value="$PROJECT_DIR$/apps/user/serializers.py" />
         <option value="$PROJECT_DIR$/apps/user/models.py" />
         <option value="$PROJECT_DIR$/eugra/urls.py" />
+        <option value="$PROJECT_DIR$/eugra/settings.py" />
       </list>
     </option>
   </component>
@@ -225,19 +199,19 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1559528010464</updated>
-      <workItem from="1559528013359" duration="2171000" />
+      <workItem from="1559528013359" duration="2568000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2171000" />
+    <option name="totallyTimeSpent" value="2568000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="67" y="25" width="1533" height="875" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Favorites" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24949563" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24949563" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" />
@@ -247,7 +221,7 @@
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.3297587" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3297587" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -267,16 +241,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
           <caret line="9" column="19" selection-start-line="9" selection-end-line="9" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/eugra/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-90">
-          <caret line="60" column="4" selection-start-line="60" selection-start-column="4" selection-end-line="60" selection-end-column="4" />
-          <folding>
-            <element signature="e#307#316#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -318,10 +282,20 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/eugra/urls.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="328">
-          <caret line="36" column="4" selection-start-line="36" selection-start-column="4" selection-end-line="36" selection-end-column="4" />
+        <state relative-caret-position="373">
+          <caret line="36" lean-forward="true" selection-start-line="36" selection-end-line="36" />
           <folding>
             <element signature="e#629#661#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/eugra/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="358">
+          <caret line="200" lean-forward="true" selection-start-line="200" selection-end-line="200" />
+          <folding>
+            <element signature="e#307#316#0" expanded="true" />
           </folding>
         </state>
       </provider>
