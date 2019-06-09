@@ -99,7 +99,7 @@ DATABASES = {
         'NAME': "mxshop",
         'USER': 'root',
         'PASSWORD': "123456",
-        'HOST': "127.0.0.1",
+        'HOST': "192.168.1.75",
         'OPTIONS': {
             'init_command': 'SET default_storage_engine=INNODB',
         }

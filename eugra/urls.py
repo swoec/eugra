@@ -24,9 +24,11 @@ from rest_framework_jwt.views import obtain_jwt_token
 from django.contrib import admin
 from django.urls import path
 from user.views import UserViewset
+from topic.views import TopicsViewSet
 
 router = DefaultRouter()
 router.register(r'user', UserViewset, base_name='user')
+router.register(r'topics', TopicsViewSet, base_name='user')
 
 
 urlpatterns = [
