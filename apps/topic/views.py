@@ -21,8 +21,9 @@ class TopicsPagination(PageNumberPagination):
     max_page_size = 100
 
 
-class TopicsViewSet(CacheResponseMixin, mixins.ListModelMixin, mixins.CreateModelMixin, mixins.UpdateModelMixin,
-                      mixins.RetrieveModelMixin, viewsets.GenericViewSet):
+class TopicsViewSet(CacheResponseMixin, mixins.ListModelMixin, mixins.CreateModelMixin, mixins.DestroyModelMixin,
+                    mixins.UpdateModelMixin,
+                    mixins.RetrieveModelMixin, viewsets.GenericViewSet):
     queryset = Topics.objects.all()
     serializer_class = TopicsSerializer
     pagination_class = TopicsPagination

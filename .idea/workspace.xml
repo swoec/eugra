@@ -2,18 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="30b30b94-433d-4b09-952c-2982ce15d8c1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/apps/topic/serializers.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/topic/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/apps/topic/models.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/apps/topic/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/apps/topic/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/eugra/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/eugra/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/eugra/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/eugra/urls.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DjangoConsoleOptions" custom-start-script="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)">
+    <option name="myCustomStartScript" value="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)" />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
@@ -29,7 +27,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/eugra/urls.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="409">
@@ -93,11 +91,11 @@
           <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/apps/topic/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="345">
-              <caret line="23" column="19" selection-start-line="23" selection-start-column="6" selection-end-line="23" selection-end-column="19" />
+            <state relative-caret-position="255">
+              <caret line="23" column="113" selection-start-line="23" selection-start-column="113" selection-end-line="23" selection-end-column="113" />
               <folding>
                 <element signature="e#0#35#0" expanded="true" />
               </folding>
@@ -144,8 +142,8 @@
         <option value="$PROJECT_DIR$/apps/topic/models.py" />
         <option value="$PROJECT_DIR$/apps/topic/serializers.py" />
         <option value="$PROJECT_DIR$/eugra/settings.py" />
-        <option value="$PROJECT_DIR$/apps/topic/views.py" />
         <option value="$PROJECT_DIR$/eugra/urls.py" />
+        <option value="$PROJECT_DIR$/apps/topic/views.py" />
       </list>
     </option>
   </component>
@@ -257,15 +255,16 @@
       <option name="presentableId" value="Default" />
       <updated>1559528010464</updated>
       <workItem from="1559528013359" duration="3750000" />
-      <workItem from="1560066608729" duration="1647000" />
+      <workItem from="1560066608729" duration="1871000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5397000" />
+    <option name="totallyTimeSpent" value="5621000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="67" y="25" width="1533" height="875" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2528581" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -377,22 +376,22 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/apps/topic/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="23" column="19" selection-start-line="23" selection-start-column="6" selection-end-line="23" selection-end-column="19" />
-          <folding>
-            <element signature="e#0#35#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/eugra/urls.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="409">
           <caret line="30" column="24" selection-start-line="30" selection-start-column="24" selection-end-line="30" selection-end-column="24" />
           <folding>
             <element signature="e#629#661#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apps/topic/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="23" column="113" selection-start-line="23" selection-start-column="113" selection-end-line="23" selection-end-column="113" />
+          <folding>
+            <element signature="e#0#35#0" expanded="true" />
           </folding>
         </state>
       </provider>
